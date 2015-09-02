@@ -1,0 +1,6 @@
+<resources>
+
+    <string name="app_name">KIT Widget</string>
+    <string name="Days">Number of Days before you would like to call:</string>
+
+</resources>

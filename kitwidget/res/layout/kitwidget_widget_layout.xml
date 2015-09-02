@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+    <!-- android:background="@drawable/reachoutshape" creates a neat invisible field but you cant see text with certain wallpapers -->
+
+    <ImageView
+        android:id="@+id/ivWidgetContactPic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="8dp"
+        android:paddingTop="4dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/ic_launcher" />
+    
+    
+    <TextView
+        android:id="@+id/tvWidgetName"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/ivWidgetContactPic"
+        android:gravity="right"
+        android:lines="1"
+        android:paddingLeft="2dp"
+        android:paddingRight="8dp"
+        android:paddingTop="4dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tvWidgetNumber"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tvWidgetName"
+        android:layout_toRightOf="@id/ivWidgetContactPic"        
+        android:gravity="right"
+        android:lines="1"
+        android:paddingBottom="4dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="8dp"
+        android:text="Number"
+        android:textSize="12dp" />
+     
+    <Button
+        android:id="@+id/bWidgetCall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/ivWidgetContactPic"
+        android:layout_gravity="center"
+        android:text="Call" />
+
+</RelativeLayout>
