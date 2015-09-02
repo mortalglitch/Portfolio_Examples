@@ -28,8 +28,8 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesClient;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.location.LocationClient;
-import com.in10sity.helper.SimpleListAdapter;
-import com.in10sity.helper.XMLParser;
+import com.someplace.helper.SimpleListAdapter;
+import com.someplace.helper.XMLParser;
 
 import android.app.Activity;
 import android.app.AlertDialog;
